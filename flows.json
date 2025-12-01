@@ -1,0 +1,1392 @@
+[
+    {
+        "id": "6287ba965f3eeb16",
+        "type": "tab",
+        "label": "PV/Battery Control Flow 1",
+        "disabled": false,
+        "info": "Allows user to set thresholds for battery discharge and cut off levels as well as incoming PV voltage level levels to control the state of a Victron relay.\nThe intended purpose is to limit the on state of the relay, and therefore the running time of a large appliance on a sailboat to be limited to cases where the batteries are charged and the sun is shining.\n",
+        "env": []
+    },
+    {
+        "id": "21d31db5ce3c95c6",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8d1c5812d3ddf277",
+            "229809fdecf3f65a",
+            "7ed539c4209dda03",
+            "6e6fb2ac46a73649",
+            "ed503b2e164db1d1",
+            "5f778aafeb7df0be",
+            "129b87368bf03793",
+            "bd5c048902821cf4",
+            "37207a246529aa00",
+            "1ad2801bdedb4fa1",
+            "95cea8594b036a9a",
+            "b6d14915349388ff"
+        ],
+        "x": 14,
+        "y": 459,
+        "w": 1152,
+        "h": 202
+    },
+    {
+        "id": "8e8f4f8ca7f86d48",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8a6f0c530499bdec",
+            "4e68967b3cc70c47",
+            "4aa09aab48e4a310",
+            "24629fbcd1f7e6b8",
+            "1206e287413c5b9c"
+        ],
+        "x": 14,
+        "y": 679,
+        "w": 812,
+        "h": 122
+    },
+    {
+        "id": "7b916bd2acd9ae58",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "213b827617b8febd",
+            "605c1c2f53bdfcf4",
+            "22a24315e4bb3a61",
+            "8ac1c5453ead7a06"
+        ],
+        "x": 794,
+        "y": 59,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "c6bd030fc911edc6",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "948f7c9713b507b7",
+            "53e5fbfaa1019117",
+            "5e6ca4da4eb072f7",
+            "add7a879be7722fc"
+        ],
+        "x": 794,
+        "y": 159,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "5af603c326d425f2",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b0167f9badc75347",
+            "16e291b1df6af33b",
+            "54d3e81d6ac21c33",
+            "29acfc2f9199e767"
+        ],
+        "x": 794,
+        "y": 359,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "7fdaaa05f96e0db1",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9fe70dae953adcca",
+            "d7084684d113e759",
+            "7febf95eafa4153d",
+            "d629e6d3056988fd"
+        ],
+        "x": 794,
+        "y": 259,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "ff9a615c23d77c50",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e1a968a6194a4b91",
+            "c9b7d695c5b270ec",
+            "8f7c4ed052c64113",
+            "60d4ecdf6cf629da"
+        ],
+        "x": 14,
+        "y": 99,
+        "w": 652,
+        "h": 122
+    },
+    {
+        "id": "7cd1958819a90fa8",
+        "type": "group",
+        "z": "6287ba965f3eeb16",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c5c4d2d2f950cb1f",
+            "cad2f82227a30c48",
+            "1e636a852b2bf16e",
+            "7fa001081c4f2724"
+        ],
+        "x": 14,
+        "y": 219,
+        "w": 672,
+        "h": 122
+    },
+    {
+        "id": "8a6f0c530499bdec",
+        "type": "victron-output-relay",
+        "z": "6287ba965f3eeb16",
+        "g": "8e8f4f8ca7f86d48",
+        "service": "com.victronenergy.system/0",
+        "path": "/Relay/0/State",
+        "serviceObj": {
+            "service": "com.victronenergy.system/0",
+            "name": "Venus device"
+        },
+        "pathObj": {
+            "path": "/Relay/0/State",
+            "type": "enum",
+            "name": "Venus relay 1 state",
+            "enum": {
+                "0": "Open",
+                "1": "Closed"
+            },
+            "mode": "both",
+            "disabled": false
+        },
+        "name": "Relay 1 NO",
+        "onlyChanges": false,
+        "x": 730,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "e1a968a6194a4b91",
+        "type": "ui_gauge",
+        "z": "6287ba965f3eeb16",
+        "g": "ff9a615c23d77c50",
+        "name": "BV",
+        "group": "4dd5fc06897c9064",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Battery Voltage",
+        "label": "Volts",
+        "format": "{{value}}",
+        "min": "5",
+        "max": "15",
+        "colors": [
+            "#ff2600",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c5c4d2d2f950cb1f",
+        "type": "ui_gauge",
+        "z": "6287ba965f3eeb16",
+        "g": "7cd1958819a90fa8",
+        "name": "",
+        "group": "4dd5fc06897c9064",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "PV Voltage",
+        "label": "Vunits",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#e32400",
+            "#ff8647",
+            "#fffb00"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "c9b7d695c5b270ec",
+        "type": "debug",
+        "z": "6287ba965f3eeb16",
+        "g": "ff9a615c23d77c50",
+        "name": "global BV",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "8f7c4ed052c64113",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "ff9a615c23d77c50",
+        "name": "set global.BV",
+        "rules": [
+            {
+                "t": "set",
+                "p": "BV",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "c9b7d695c5b270ec",
+                "e1a968a6194a4b91"
+            ]
+        ]
+    },
+    {
+        "id": "8d1c5812d3ddf277",
+        "type": "switch",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "BV Switch",
+        "property": "BV",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "BV-High",
+                "vt": "global"
+            },
+            {
+                "t": "lte",
+                "v": "BV-Low",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 520,
+        "wires": [
+            [
+                "229809fdecf3f65a"
+            ],
+            [
+                "7ed539c4209dda03"
+            ]
+        ]
+    },
+    {
+        "id": "229809fdecf3f65a",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "BV High",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 500,
+        "wires": [
+            [
+                "37207a246529aa00"
+            ]
+        ]
+    },
+    {
+        "id": "7ed539c4209dda03",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "BV Low",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "37207a246529aa00"
+            ]
+        ]
+    },
+    {
+        "id": "6e6fb2ac46a73649",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "BV",
+        "payload": "BV",
+        "payloadType": "global",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "8d1c5812d3ddf277"
+            ]
+        ]
+    },
+    {
+        "id": "cad2f82227a30c48",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "7cd1958819a90fa8",
+        "name": "set global.PVV",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PVV",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "1e636a852b2bf16e",
+                "c5c4d2d2f950cb1f"
+            ]
+        ]
+    },
+    {
+        "id": "1e636a852b2bf16e",
+        "type": "debug",
+        "z": "6287ba965f3eeb16",
+        "g": "7cd1958819a90fa8",
+        "name": "global PVV",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "ed503b2e164db1d1",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "global.PVV",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "PVV",
+        "payload": "PVV",
+        "payloadType": "global",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "129b87368bf03793"
+            ]
+        ]
+    },
+    {
+        "id": "5f778aafeb7df0be",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "PVV Low",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 620,
+        "wires": [
+            [
+                "37207a246529aa00"
+            ]
+        ]
+    },
+    {
+        "id": "129b87368bf03793",
+        "type": "switch",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "PVV Switch",
+        "property": "PVV",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "PV-On",
+                "vt": "global"
+            },
+            {
+                "t": "lt",
+                "v": "PV-Off",
+                "vt": "global"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 600,
+        "wires": [
+            [
+                "bd5c048902821cf4"
+            ],
+            [
+                "5f778aafeb7df0be"
+            ]
+        ]
+    },
+    {
+        "id": "bd5c048902821cf4",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "PVV High",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 580,
+        "wires": [
+            [
+                "37207a246529aa00"
+            ]
+        ]
+    },
+    {
+        "id": "37207a246529aa00",
+        "type": "BooleanLogicUltimate",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "Combined Logic",
+        "payloadPropName": "payload",
+        "filtertrue": "both",
+        "persist": true,
+        "sInitializeWith": "false",
+        "triggertopic": "trigger",
+        "outputtriggeredby": "all",
+        "inputCount": 2,
+        "topic": "result",
+        "restrictinputevaluation": false,
+        "delayEvaluation": 0,
+        "translatorConfig": "",
+        "x": 770,
+        "y": 560,
+        "wires": [
+            [
+                "1ad2801bdedb4fa1",
+                "95cea8594b036a9a",
+                "b6d14915349388ff"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1ad2801bdedb4fa1",
+        "type": "debug",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "Relay State",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "4e68967b3cc70c47",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "8e8f4f8ca7f86d48",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "AND",
+        "payloadType": "global",
+        "x": 130,
+        "y": 740,
+        "wires": [
+            [
+                "4aa09aab48e4a310"
+            ]
+        ]
+    },
+    {
+        "id": "95cea8594b036a9a",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "name": "set global.PVV",
+        "rules": [
+            {
+                "t": "set",
+                "p": "AND",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1060,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4aa09aab48e4a310",
+        "type": "switch",
+        "z": "6287ba965f3eeb16",
+        "g": "8e8f4f8ca7f86d48",
+        "name": "AND convert",
+        "property": "AND",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 740,
+        "wires": [
+            [
+                "1206e287413c5b9c"
+            ],
+            [
+                "24629fbcd1f7e6b8"
+            ]
+        ]
+    },
+    {
+        "id": "24629fbcd1f7e6b8",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "8e8f4f8ca7f86d48",
+        "name": "AND False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 760,
+        "wires": [
+            [
+                "8a6f0c530499bdec"
+            ]
+        ]
+    },
+    {
+        "id": "1206e287413c5b9c",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "8e8f4f8ca7f86d48",
+        "name": "AND True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 720,
+        "wires": [
+            [
+                "8a6f0c530499bdec"
+            ]
+        ]
+    },
+    {
+        "id": "213b827617b8febd",
+        "type": "ui_slider",
+        "z": "6287ba965f3eeb16",
+        "g": "7b916bd2acd9ae58",
+        "name": "",
+        "label": "BV Cutoff",
+        "tooltip": "",
+        "group": "ee62c557b327f0cc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "10",
+        "max": "15",
+        "step": ".1",
+        "className": "",
+        "x": 1060,
+        "y": 100,
+        "wires": [
+            [
+                "22a24315e4bb3a61"
+            ]
+        ]
+    },
+    {
+        "id": "605c1c2f53bdfcf4",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "7b916bd2acd9ae58",
+        "name": "BV Low",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "11.0",
+        "payloadType": "num",
+        "x": 890,
+        "y": 100,
+        "wires": [
+            [
+                "213b827617b8febd"
+            ]
+        ]
+    },
+    {
+        "id": "22a24315e4bb3a61",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "7b916bd2acd9ae58",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "BV-Low",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 100,
+        "wires": [
+            [
+                "8ac1c5453ead7a06"
+            ]
+        ]
+    },
+    {
+        "id": "8ac1c5453ead7a06",
+        "type": "ui_text",
+        "z": "6287ba965f3eeb16",
+        "g": "7b916bd2acd9ae58",
+        "group": "ee62c557b327f0cc",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1490,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "948f7c9713b507b7",
+        "type": "ui_slider",
+        "z": "6287ba965f3eeb16",
+        "g": "c6bd030fc911edc6",
+        "name": "",
+        "label": "BV Resume",
+        "tooltip": "",
+        "group": "b56c14f2231c1d11",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "10",
+        "max": "15",
+        "step": ".1",
+        "className": "",
+        "x": 1070,
+        "y": 200,
+        "wires": [
+            [
+                "5e6ca4da4eb072f7"
+            ]
+        ]
+    },
+    {
+        "id": "53e5fbfaa1019117",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "c6bd030fc911edc6",
+        "name": "BV High",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "14.5",
+        "payloadType": "num",
+        "x": 900,
+        "y": 200,
+        "wires": [
+            [
+                "948f7c9713b507b7"
+            ]
+        ]
+    },
+    {
+        "id": "5e6ca4da4eb072f7",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "c6bd030fc911edc6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "BV-High",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 200,
+        "wires": [
+            [
+                "add7a879be7722fc"
+            ]
+        ]
+    },
+    {
+        "id": "add7a879be7722fc",
+        "type": "ui_text",
+        "z": "6287ba965f3eeb16",
+        "g": "c6bd030fc911edc6",
+        "group": "b56c14f2231c1d11",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1490,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "b0167f9badc75347",
+        "type": "ui_slider",
+        "z": "6287ba965f3eeb16",
+        "g": "5af603c326d425f2",
+        "name": "",
+        "label": "PV On",
+        "tooltip": "",
+        "group": "8a4a718898795b4b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "10",
+        "max": "15",
+        "step": ".1",
+        "className": "",
+        "x": 1050,
+        "y": 400,
+        "wires": [
+            [
+                "54d3e81d6ac21c33"
+            ]
+        ]
+    },
+    {
+        "id": "16e291b1df6af33b",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "5af603c326d425f2",
+        "name": "PV High",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "14",
+        "payloadType": "num",
+        "x": 900,
+        "y": 400,
+        "wires": [
+            [
+                "b0167f9badc75347"
+            ]
+        ]
+    },
+    {
+        "id": "54d3e81d6ac21c33",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "5af603c326d425f2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PV-On",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 400,
+        "wires": [
+            [
+                "29acfc2f9199e767"
+            ]
+        ]
+    },
+    {
+        "id": "29acfc2f9199e767",
+        "type": "ui_text",
+        "z": "6287ba965f3eeb16",
+        "g": "5af603c326d425f2",
+        "group": "8a4a718898795b4b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1490,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "9fe70dae953adcca",
+        "type": "ui_slider",
+        "z": "6287ba965f3eeb16",
+        "g": "7fdaaa05f96e0db1",
+        "name": "",
+        "label": "PV Off",
+        "tooltip": "",
+        "group": "51575ec49793bbe9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "0",
+        "max": "15",
+        "step": ".1",
+        "className": "",
+        "x": 1050,
+        "y": 300,
+        "wires": [
+            [
+                "7febf95eafa4153d"
+            ]
+        ]
+    },
+    {
+        "id": "d7084684d113e759",
+        "type": "inject",
+        "z": "6287ba965f3eeb16",
+        "g": "7fdaaa05f96e0db1",
+        "name": "PV Low",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "11",
+        "payloadType": "num",
+        "x": 890,
+        "y": 300,
+        "wires": [
+            [
+                "9fe70dae953adcca"
+            ]
+        ]
+    },
+    {
+        "id": "7febf95eafa4153d",
+        "type": "change",
+        "z": "6287ba965f3eeb16",
+        "g": "7fdaaa05f96e0db1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "PV-Off",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1290,
+        "y": 300,
+        "wires": [
+            [
+                "d629e6d3056988fd"
+            ]
+        ]
+    },
+    {
+        "id": "d629e6d3056988fd",
+        "type": "ui_text",
+        "z": "6287ba965f3eeb16",
+        "g": "7fdaaa05f96e0db1",
+        "group": "51575ec49793bbe9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1490,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b6d14915349388ff",
+        "type": "ui_text",
+        "z": "6287ba965f3eeb16",
+        "g": "21d31db5ce3c95c6",
+        "group": "43f113d90ece1af0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Relay State",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1050,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "60d4ecdf6cf629da",
+        "type": "victron-input-solarcharger",
+        "z": "6287ba965f3eeb16",
+        "g": "ff9a615c23d77c50",
+        "service": "com.victronenergy.solarcharger/277",
+        "path": "/Dc/0/Voltage",
+        "serviceObj": {
+            "service": "com.victronenergy.solarcharger/277",
+            "name": "SmartSolar Charger MPPT 100/20 48V"
+        },
+        "pathObj": {
+            "path": "/Dc/0/Voltage",
+            "type": "float",
+            "name": "Battery voltage (V)"
+        },
+        "name": "MPPT Battery voltage",
+        "onlyChanges": false,
+        "roundValues": "1",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "8f7c4ed052c64113"
+            ]
+        ]
+    },
+    {
+        "id": "7fa001081c4f2724",
+        "type": "victron-input-solarcharger",
+        "z": "6287ba965f3eeb16",
+        "g": "7cd1958819a90fa8",
+        "service": "com.victronenergy.solarcharger/277",
+        "path": "/Pv/V",
+        "serviceObj": {
+            "service": "com.victronenergy.solarcharger/277",
+            "name": "SmartSolar Charger MPPT 100/20 48V"
+        },
+        "pathObj": {
+            "path": "/Pv/V",
+            "type": "float",
+            "name": "PV voltage"
+        },
+        "name": "MPPT PV Voltage",
+        "onlyChanges": false,
+        "roundValues": "1",
+        "x": 120,
+        "y": 280,
+        "wires": [
+            [
+                "cad2f82227a30c48"
+            ]
+        ]
+    },
+    {
+        "id": "8595c2ea277d6f4a",
+        "type": "ui_spacer",
+        "z": "6287ba965f3eeb16",
+        "name": "spacer",
+        "group": "4dd5fc06897c9064",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "4dd5fc06897c9064",
+        "type": "ui_group",
+        "name": "Solar System",
+        "tab": "8f6e337104e569ad",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ee62c557b327f0cc",
+        "type": "ui_group",
+        "name": "BV Cutoff Settings",
+        "tab": "8f6e337104e569ad",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b56c14f2231c1d11",
+        "type": "ui_group",
+        "name": "BV Resume Settings",
+        "tab": "8f6e337104e569ad",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a4a718898795b4b",
+        "type": "ui_group",
+        "name": "PV On Setting",
+        "tab": "8f6e337104e569ad",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "51575ec49793bbe9",
+        "type": "ui_group",
+        "name": "PV Off Setting",
+        "tab": "8f6e337104e569ad",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "43f113d90ece1af0",
+        "type": "ui_group",
+        "name": "Relay",
+        "tab": "8f6e337104e569ad",
+        "order": 6,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8f6e337104e569ad",
+        "type": "ui_tab",
+        "name": "BV Set",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
